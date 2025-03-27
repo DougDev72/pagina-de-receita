@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Young+Serif&display=swap');
+
+
+body {
+    background-color: rgb(246, 227, 207);
+    font-family: serif;
+    font-weight:normal;
+    margin: 100px;
+}
+
+main {
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    border: 1px;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 40px;
+}
+
+main img {
+    width: 98%;
+    border-radius: 15px;
+}
+
+h1.principal {
+    font-size: bolder;
+    font-size:2.5em;
+}
+h1 {
+    font-family: 'Young serif';
+    font-weight: normal;
+}
+
+article > h1 {
+    color: rgb(142, 0, 0);
+}
+
+article > ol > li {
+    height: 2.8em;
+}
+
+div.box {
+    background-color: rgb(254, 243, 251) ;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 25px 0px;
+}
+
+div > h3 {
+    color: rgb(99, 24, 58);
+}
